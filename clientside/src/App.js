@@ -6,6 +6,7 @@ import About from './comonents/About.jsx'
 import Report from './comonents/Report.jsx'
 import { Login } from './comonents/Login.jsx';
 import './styles/styles.css';
+import { Register } from './comonents/Register.jsx';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path='/home' element= {<Home/>}/>
           <Route path='/about' element= {<About/>}/>
           <Route path='/report' element= {<Report/>}/>
+          <Route path='/register' element= {<Register/>}/>
         </Routes>
       </Router>
       {/* <Footer/> */}

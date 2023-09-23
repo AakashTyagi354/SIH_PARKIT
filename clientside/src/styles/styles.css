@@ -127,3 +127,25 @@ a{
     0%   {bottom: -100px;}
     100% {bottom: 640px;}
   }
+
+
+
+  
+/* register form */
+
+.register-form{
+    width: 60%;
+    position: relative;
+    top: 10%;
+    left: 20%;
+    height: 85%;
+    border:1px solid rgb(182, 182, 182);
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    width: 100px;
+    margin-top: 20px;
+}

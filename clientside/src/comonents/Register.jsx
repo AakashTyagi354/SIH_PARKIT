@@ -4,7 +4,7 @@ import image from "../utils/toppng.com-red-top-view-clip-art-at-clker-cartoon-ca
 import image2 from "../utils/clipart651151.png";
 import { Link } from "react-router-dom";
 
-export const Login = () => {
+export const Register = () => {
   return (
     <div className="Login-main">
       <div className="left">
@@ -39,10 +39,11 @@ export const Login = () => {
         </div>
       </div>
       <div className="right">
-        <form className="form">
+        <form className="register-form">
           <div className="heading">
-            <h1>Login</h1>
+            <h1>Register</h1>
           </div>
+
           <div className="mb-3">
             <label htmlFor="exampleInputEmail1" className="form-label">
               Email address
@@ -54,6 +55,31 @@ export const Login = () => {
               aria-describedby="emailHelp"
             />
           </div>
+
+          <div className="mb-3">
+            <label htmlFor="exampleInputEmail1" className="form-label">
+              Vehicle Number
+            </label>
+            <input
+              type="text"
+              className="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+          </div>
+
+          <div className="mb-3">
+            <label htmlFor="exampleInputEmail1" className="form-label">
+              Licence Number
+            </label>
+            <input
+              type="text"
+              className="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+          </div>
+
           <div className="mb-3">
             <label htmlFor="exampleInputPassword1" className="form-label">
               Password
@@ -64,10 +90,20 @@ export const Login = () => {
               id="exampleInputPassword1"
             />
           </div>
+          <div className="mb-3">
+            <label htmlFor="exampleInputPassword1" className="form-label">
+              Confirm Password
+            </label>
+            <input
+              type="password"
+              className="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
           <div id="emailHelp" className="form-text">
-            Haven't Registered yet ? Register Now
-            <Link to="/register">
-              <a href="/home">Register</a>
+            Registerd already?  {" "}
+            <Link to="/">
+              <a href="/home">login</a>
             </Link>
           </div>
           <button type="submit" className="btn btn-danger non-hover">
