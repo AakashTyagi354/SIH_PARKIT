@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Navbar */
+
+.Nav-main{
+    background-color: black;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    flex: 1;
+}
+
+.log{
+    flex: 1;
+}
+
+.pages{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+
+/* Login */
+.Login-main{
+    background-color: white;
+    height: 92vh;
+    display: flex;
+    width: 100%;
+}
+
+.left{
+    flex: 1;
+    
+}
+
+.right{
+    flex: 1;
+}
+
+.form{
+    width: 60%;
+    position: relative;
+    top: 20%;
+    left: 20%;
+    height: 57%;
+    border:1px solid rgb(182, 182, 182);
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.non-hover :hover{
+    text-decoration: none;
+    color: white;
+}
+
+.form-text{
+    color: grey;
+    font-size: 13px;
+    padding: 0 0 20px 0px;
+    letter-spacing: 0.7px;
+}
+
+.form-text a{
+    color: blue;
+    
+}
+
+.heading{
+    align-self: center;
+    padding-bottom: 40px;
+}
+
+.btn{
+    width: 100px;
+    margin-top: 30px;
+}
+
+.standing{
+    height: 100%;
+}
+
+.parked1{
+    position: relative;
+    bottom: 520px;
+    left: 440px;
+}
+
+.parked2{
+    position: relative;
+    bottom: 470px;
+    left: 440px;
+}
+
+.parked3{   
+    position: fixed;
+    bottom: -500px;
+    left: 50px;
+    transform: rotate(270deg);
+    animation-name: cars;
+    transition: all ease-in-out;
+    animation-duration: 3s;
+    transition: all ease-in-out;
+    top: -20;
+}
+
+@keyframes cars {
+    0%   {bottom: -100px;}
+    100% {bottom: 640px;}
+  }
