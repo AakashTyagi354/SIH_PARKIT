@@ -1,19 +1,33 @@
 import React from "react";
+import clipart172157 from '../utils/clipart172157.png';
+import image from '../utils/toppng.com-red-top-view-clip-art-at-clker-cartoon-car-birds-eye-view-600x300.png'
+import image2 from '../utils/clipart651151.png'
+
 
 export const Login = () => {
   return (
     <div className="Login-main">
       <div className="left">
-        <img src="" alt="pole" className="standing" />
+        <div className="standing" >
+          <img src="https://i.ebayimg.com/images/g/GeYAAOSwRUJeu2WW/s-l1200.webp" width='100%' height='100%' alt="" />
+        </div>
+        <div className="parked1">
+           <img src={clipart172157} alt="Racing Car - Cartoon Car Top View@clipartmax.com" width={320}/>
+        </div>
+        <div className="parked2">
+          <img src={image} alt="Racing Car - Cartoon Car Top View@clipartmax.com" width={320}/>
+        </div>
+        <div className="parked3">
+          <img src={image2} alt="Racing Car - Cartoon Car Top View@clipartmax.com" width={320}/>
+        </div>
       </div>
-        <img src="" alt="car" className="car" />
       <div className="right">
         <form className="form">
           <div className="heading">
             <h1>Login</h1>
           </div>
           <div className="mb-3">
-            <label for="exampleInputEmail1" className="form-label">
+            <label htmlFor="exampleInputEmail1" className="form-label">
               Email address
             </label>
             <input
@@ -25,7 +39,7 @@ export const Login = () => {
             
           </div>
           <div className="mb-3">
-            <label for="exampleInputPassword1" className="form-label">
+            <label htmlFor="exampleInputPassword1" className="form-label">
               Password
             </label>
             <input

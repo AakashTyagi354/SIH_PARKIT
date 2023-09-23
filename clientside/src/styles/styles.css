@@ -49,6 +49,7 @@ a{
 
 .left{
     flex: 1;
+    
 }
 
 .right{
@@ -93,3 +94,36 @@ a{
     width: 100px;
     margin-top: 30px;
 }
+
+.standing{
+    height: 100%;
+}
+
+.parked1{
+    position: relative;
+    bottom: 520px;
+    left: 440px;
+}
+
+.parked2{
+    position: relative;
+    bottom: 470px;
+    left: 440px;
+}
+
+.parked3{   
+    position: fixed;
+    bottom: -500px;
+    left: 50px;
+    transform: rotate(270deg);
+    animation-name: cars;
+    transition: all ease-in-out;
+    animation-duration: 3s;
+    transition: all ease-in-out;
+    top: -20;
+}
+
+@keyframes cars {
+    0%   {bottom: -100px;}
+    100% {bottom: 640px;}
+  }
