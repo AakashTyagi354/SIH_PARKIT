@@ -7,9 +7,9 @@ const Navbar = () => {
   return (
     <div className="Nav-main">
       <div className="logo">
-        <img style={{
+        <a href="/login"><img style={{
           height:"5vh"
-        }} src={logo} alt="" />
+        }} src={logo} alt="" /></a>
       </div>
       <div className="pages non-hover">
         <a href="/home">Home</a>
