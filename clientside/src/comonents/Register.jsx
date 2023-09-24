@@ -1,42 +1,13 @@
 import React from "react";
-import clipart172157 from "../utils/clipart172157.png";
-import image from "../utils/toppng.com-red-top-view-clip-art-at-clker-cartoon-car-birds-eye-view-600x300.png";
-import image2 from "../utils/clipart651151.png";
+import hero from '../utils/Parking-pana.png'
+
 import { Link } from "react-router-dom";
 
 export const Register = () => {
   return (
     <div className="Login-main">
       <div className="left">
-        <div className="standing">
-          <img
-            src="https://i.ebayimg.com/images/g/GeYAAOSwRUJeu2WW/s-l1200.webp"
-            width="100%"
-            height="100%"
-            alt=""
-          />
-        </div>
-        <div className="parked1">
-          <img
-            src={clipart172157}
-            alt="Racing Car - Cartoon Car Top View@clipartmax.com"
-            width={320}
-          />
-        </div>
-        <div className="parked2">
-          <img
-            src={image}
-            alt="Racing Car - Cartoon Car Top View@clipartmax.com"
-            width={320}
-          />
-        </div>
-        <div className="parked3">
-          <img
-            src={image2}
-            alt="Racing Car - Cartoon Car Top View@clipartmax.com"
-            width={320}
-          />
-        </div>
+        <img src={hero} alt="hero" />
       </div>
       <div className="right">
         <form className="register-form">
@@ -107,7 +78,7 @@ export const Register = () => {
             </Link>
           </div>
           <button type="submit" className="btn btn-danger non-hover">
-            <a href="/home">Submit</a>
+            <a href="/login">Submit</a>
           </button>
         </form>
       </div>
