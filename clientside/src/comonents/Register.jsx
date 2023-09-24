@@ -73,7 +73,7 @@ export const Register = () => {
           </div>
           <div id="emailHelp" className="form-text">
             Registerd already?  {" "}
-            <Link to="/">
+            <Link to="/login">
               <a href="/home">login</a>
             </Link>
           </div>
