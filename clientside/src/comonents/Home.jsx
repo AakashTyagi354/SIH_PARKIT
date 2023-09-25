@@ -45,7 +45,7 @@ const Home = () => {
               <img src={img2} alt="" />
             </div>
             <div className="card-feature">
-              <h3>Check Availablility</h3>
+              <h3>Check Availability</h3>
             </div>
           </div>
           <div className="card card3">
@@ -61,7 +61,7 @@ const Home = () => {
               <img src={img4} alt="" />
             </div>
             <div className="card-feature">
-              <h3>Instant parking</h3>
+              <h3>Instant Parking</h3>
             </div>
           </div>
           <div className="card card5">
@@ -69,7 +69,7 @@ const Home = () => {
               <img src={img5} alt="" />
             </div>
             <div className="card-feature">
-              <h3>Auto-Cancellation</h3>
+              <h3>Auto-cancellation</h3>
             </div>
           </div>
           <div className="card card6">
@@ -77,7 +77,7 @@ const Home = () => {
               <img src={img6} alt="" />
             </div>
             <div className="card-feature">
-              <h3>Dynamic Parking</h3>
+              <h3>Dynamic Pricing</h3>
             </div>
           </div>
         </div>
