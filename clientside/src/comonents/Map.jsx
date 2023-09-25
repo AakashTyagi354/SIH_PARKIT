@@ -9,53 +9,53 @@ import MapCard from "./mapCard.jsx";
 
 const locations = [
   {
-    name: "Narpaatgiri Police Station",
+    name: "KEM Hospital Parking",
+    price: "17",
+    available: "3",
+  },
+  {
+    name: "Parking near Todkar Hospital",
+    price: "5",
+    available: "16",
+  },
+  {
+    name: "ISKCON Pune Camp Parking",
     price: "10",
     available: "10",
   },
   {
-    name: "Narpaatgiri Police Station 2",
+    name: "Kayani Bakery Street",
+    price: "9",
+    available: "13",
+  },
+  {
+    name: "Babu Video Games",
     price: "10",
     available: "10",
   },
   {
-    name: "Narpaatgiri Police Station 3",
-    price: "10",
-    available: "10",
+    name: "Kashewadi Slum Parking",
+    price: "8",
+    available: "11",
   },
   {
-    name: "Narpaatgiri Police Station 4",
-    price: "10",
-    available: "10",
+    name: "La Fit Parking",
+    price: "20",
+    available: "1",
   },
   {
-    name: "Narpaatgiri Police Station 5",
-    price: "10",
-    available: "10",
-  },
-  {
-    name: "Narpaatgiri Police Station 6",
-    price: "10",
-    available: "10",
-  },
-  {
-    name: "Narpaatgiri Police Station 7",
-    price: "10",
-    available: "10",
-  },
-  {
-    name: "Narpaatgiri Police Station 8",
-    price: "10",
-    available: "10",
+    name: "RCM Gujarati High School",
+    price: "5",
+    available: "16",
   },
 ];
 const Map = () => {
   const TOKEN =
     "pk.eyJ1IjoiZGV2ZXNoMTE0MTEiLCJhIjoiY2xteHU2Y2xkMHhmMjJsbGN5enpvYXh2aiJ9.bBWEfwffQR7__rE3r-9p-Q";
   const [viewPort, setViewPort] = useState({
-    latitude: 18.5228,
-    longitude: 73.8673,
-    zoom: 16,
+    latitude: 18.516542579743234, 
+    longitude: 73.87202740814477,
+    zoom: 15,
   });
   // const [newPlace, setNewPlace] = useState('');
 

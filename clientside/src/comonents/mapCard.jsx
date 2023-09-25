@@ -18,10 +18,10 @@ const MapCard = ({name,price,available}) => {
           </div>
           <div className="btns">
             <div className="instant-btn">
-              <button>Instant</button>
+              <a href="/park"><button>Instant</button></a>
             </div>
             <div className="pre-btn">
-              <button>Prebook</button>
+              <a href="/park"><button>Prebook</button></a>
             </div>
           </div>
         </div>
