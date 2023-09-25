@@ -1,22 +1,33 @@
-import React from 'react'
+import React  from 'react'
 import Search from './Search'
+
+
+
 
 
 const Home = () => {
 
   return (
     <div className='Home-main'>
-      
-      <div className="content-section">
-        <div className="content">
-          <div className="content-top">
-            <div className="content-search">
-              <Search />
-            </div>
-            <div className="content-btn">
-            <a href="/maps"><button className="search-btn">Search</button></a>
-            </div>
-          </div>
+      <div className="Home-img">
+          
+      </div>
+      <div className="Home-search">
+        <div className="search-input">
+          <Search/>
+        </div>
+        <div className="searh-btn">
+          <a href="/maps">
+            <button>Search</button>
+          </a>
+        </div>
+      </div>
+      <div className="Hoem-features">
+        <div className="header">
+          <h1>Features</h1>
+        </div>
+        <div className="features">
+
         </div>
       </div>
     </div>

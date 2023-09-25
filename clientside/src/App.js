@@ -11,13 +11,17 @@ import './styles/styles.css';
 import { Register } from './comonents/Register.jsx';
 
 const App = () => {
+  // const [lat, setLat] = useState('');
+  // const [lng, setLng] = useState('');
+  
   return (
+    
     <div className='container-main'>
       <Navbar/>
       <Router>
         <Routes>
-          <Route path='/login' element= {<Login/>}/>
-          <Route path='/home' element= {<Home/>}/>
+          <Route path='/' element= {<Login/>}/>
+          <Route path='/home' element= {<Home />}/>
           <Route path='/about' element= {<About/>}/>
           <Route path='/report' element= {<Report/>}/>
           <Route path='/register' element= {<Register/>}/>

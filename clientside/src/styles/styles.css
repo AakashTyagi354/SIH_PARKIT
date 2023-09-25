@@ -132,64 +132,139 @@ a{
     display: flex;
     flex-direction: column;
     height: 92vh;
-    position: relative;
-    background-image: url('../utils/vecteezy_underground-car-parking-garage-with-vehicle_14068211.jpg');
+}
+
+.Home-main .Home-img{
+    flex: 1;
+    background-color: red;
+}
+
+.Home-main .Home-search{
+    flex: 1;
+    background-color: yellow;
+}
+
+.Home-main .Home-features{
+    flex: 2;
+    background-color: green;
 }
 
 
-.Home-main .content-section{
-  
-    position: relative;
-    width: 1000px;
-    left: 350px;
-    top: 330px;
+/* Map */
+.map-main{
+    display: flex;
+    height: 92vh;
+}
+
+.map-left{
+    flex: 1;
+    overflow: scroll;
+    height: 92vh;
+
+}
+
+
+.map-right{
+    flex: 2;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.map-left .map-card{
+    height: 150px;
+    width: 87%;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 0.5px solid blueviolet;
+}
+
+
+
+.map-card .img-location{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    background-image: url('../utils//Maplocation_-5a492a4e482c52003601ea25.jpg');
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.map-card .available h6{
+    margin-top: 10px;
+}
+
+.map-card .details-location{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.map-card .details-location .location-price{
+    flex: 1;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    
 }
 
+.map-card .details-location h6{
+    font-size: 14px;
+    letter-spacing: 10ox;
+}
 
-
-.content-top{
+.map-card .details-location .available{
+    flex: 1;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.map-card .details-location .btns{
+    flex: 1;
+    display: flex;
+    margin-top: 10px;
 }
 
-.content-top .content-search{
-    width: 600px;
-    height: 60px;
+.map-card .details-location .btns .instant-btn{
+    flex: 1;
 }
 
-.content-top .content-search input{
-    border-radius: 2px;
+.map-card .details-location .btns .pre-btn{
+    flex: 1;
+}
+
+.map-card .pre-btn button{
+    width: 100px;
+    padding: 2px;
     border: none;
-    padding-left: 20px;
-    border: 1px solid grey;
-    font-size: 20px;
-    letter-spacing: 1px;
-}
-
-.content-top .content-search input:focus{
-    outline: none;
-}
-
-.content-top .content-btn button{
-    width: 200px;
-    height: 60px;
-    outline: none;
-    border-radius: 2px;
-    border: none;
-    color: white;
+    color: blueviolet;
+    border-radius: 10px;
     cursor: pointer;
-    background: linear-gradient(90deg, rgba(159,113,220,1) 0%, rgba(150,94,215,1) 35%, rgba(123,48,196,1) 100%);
 }
 
-
-.content-top .content-btn a{
-    font-size: 20px;
-    letter-spacing: 1px;
-}  
-
-.content-top .content-btn button a:hover{
-    text-decoration: none;
+.map-card .instant-btn button{
+    width: 100px;
+    padding: 2px;
+    border: none;
+    background-color: blueviolet;
     color: white;
-}   
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+
+.map-card .btns{
+    gap: 80px;
+    
+}
