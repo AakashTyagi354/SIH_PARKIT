@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className="Nav-main">
       <div className="logo">
-        <a href="/login"><img style={{
+        <a href="/"><img style={{
           height:"5vh"
         }} src={logo} alt="" /></a>
       </div>

@@ -78,7 +78,7 @@ export const Register = () => {
             </Link>
           </div>
           <button type="submit" className="btn btn-danger non-hover">
-            <a href="/login">Submit</a>
+            <a href="/">Submit</a>
           </button>
         </form>
       </div>
