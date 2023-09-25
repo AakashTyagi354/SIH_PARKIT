@@ -9,6 +9,7 @@ import Map from './comonents/Map.jsx';
 
 import './styles/styles.css';
 import { Register } from './comonents/Register.jsx';
+import Park from './comonents/Park.jsx';
 
 const App = () => {
   // const [lat, setLat] = useState('');
@@ -26,6 +27,7 @@ const App = () => {
           <Route path='/report' element= {<Report/>}/>
           <Route path='/register' element= {<Register/>}/>
           <Route path='/maps' element= {<Map/>}/>
+          <Route path='/park' element= {<Park/>}/>
 
         </Routes>
       </Router>

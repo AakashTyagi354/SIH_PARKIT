@@ -268,3 +268,136 @@ a{
     gap: 80px;
     
 }
+
+
+
+/* PARK */
+
+
+
+/* park */
+.p-main {
+    display: flex;
+    flex-direction: column;
+    height: 92vh;
+  }
+  .p-top {
+    height: 160px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .p-top-sub {
+    height: 80px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .p-zone-btnactive {
+    border: none;
+    background-color: white;
+    margin-right: 30px;
+    color: rgb(72, 72, 72);
+    letter-spacing: 0.6px;
+    font-size: 18px;
+    cursor: pointer;
+    border-bottom: 2px solid #b26af9;
+    padding-bottom: 5px;
+  }
+  .p-zone-btn {
+    border: none;
+    background-color: white;
+    margin-right: 30px;
+    color: rgb(72, 72, 72);
+    letter-spacing: 0.6px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .p-bottom {
+    flex: 10;
+   
+  
+    display: flex;
+    align-items: center;
+  
+    justify-content: center;
+  }
+  .p-block {
+    width: 400px;
+    border: 1px dotted gray;
+    height: 75%;
+    margin-top: 40px;
+    display: flex;
+  }
+  .p-b-l-sub {
+    border: 1px dotted gray;
+    height: 80px;
+    width: 85%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(207, 207, 207);
+    cursor: pointer;
+  }
+  .p-b-right {
+    flex: 1;
+  }
+  .p-b-left {
+    flex: 1;
+  }
+  .div-btn {
+    display: flex;
+  
+    justify-content: center;
+    height: 70px;
+    
+  }
+  .c-btn {
+    height: 40px;
+    width: 400px;
+    border: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.2s all ease-in;
+  }
+  
+  .spin {
+    background-color: rgb(217, 217, 217);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .c-btn:hover {
+    transition: 0.2s all ease-in;
+    background-color: rgb(57, 57, 57);
+    color: white;
+  }
+  .activegreen {
+    border: 2px solid rgb(33, 185, 33);
+  }
+  .click-active {
+    background-color: green;
+  }
+  .activered {
+    border: 2px solid red;
+  }
+  .car-img {
+    height: 70%;
+    width: 70%;
+  }
+  .car-img2 {
+    height: 70%;
+    width: 70%;
+  
+    transform: rotate(180deg);
+  }
+  .active {
+    border: 2px solid black;
+  }
+  
+  
