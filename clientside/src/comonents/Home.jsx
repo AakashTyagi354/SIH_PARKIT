@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className='Home-main'>
       <div className="Home-img">
-          
+
       </div>
       <div className="Home-search">
         <div className="search-input">
@@ -22,7 +22,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <div className="Hoem-features">
+      <div className="Home-features">
         <div className="header">
           <h1>Features</h1>
         </div>

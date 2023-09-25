@@ -131,21 +131,21 @@ a{
 .Home-main{
     display: flex;
     flex-direction: column;
-    height: 92vh;
+    height: 120vh;
 }
 
-.Home-main .Home-img{
+.Home-img{
     flex: 1;
     background-color: red;
 }
 
-.Home-main .Home-search{
+.Home-search{
     flex: 1;
     background-color: yellow;
 }
 
-.Home-main .Home-features{
-    flex: 2;
+.Home-features{
+    flex: 1;
     background-color: green;
 }
 
