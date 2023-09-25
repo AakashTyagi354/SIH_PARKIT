@@ -128,27 +128,120 @@ a{
 
 /* Home section */
 
-.Home-main{
-    display: flex;
-    flex-direction: column;
-    height: 120vh;
+.home-main{
+  height: 120vh;
+  display: flex; 
+  flex-direction: column;
 }
 
-.Home-img{
-    flex: 1;
-    background-color: red;
+.img-search {
+  flex: 1;
+  background-image: url('../utils/2.jpg');
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
 }
 
-.Home-search{
-    flex: 1;
-    background-color: yellow;
+.content-search{
+  width: 600px;
+  padding: 12px;
+  outline: none;
+  border: 1px solid grey;
+  position: absolute;
+  left: 25%;
+  top:330px;
+  letter-spacing: 1px;
+  border-radius: 6px;
 }
 
-.Home-features{
-    flex: 1;
-    background-color: green;
+.search-btn button{
+  padding: 12px;
+  width: 200px;
+  background-color: blueviolet;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+  border-radius: 5px;
 }
 
+.search-btn{
+  position: absolute;
+  left: 61%;
+  top: 330px;
+  
+}
+
+.features{
+  flex: 2;
+  display: flex;
+  padding-top: 100px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.features .card-container{
+  width: 90%;
+  height: 90%;
+  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 280px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  border-radius: 6px;
+  transition: all 0.6s ease-in-out;
+  color: blueviolet;
+  border: none;
+  background-color: white;
+}
+
+.card:hover{
+  scale: 1.1;
+  transition: all 0.6s ease-in-out;
+}
+
+.card-logo{
+  flex: 1;
+  padding-top: 50px;
+}
+
+.card2,.card3,.card4{
+  margin-left: 130px;
+}
+
+.card-feature{
+  flex: 1;
+  letter-spacing: 2px;
+}
+
+.card6{
+  margin-left: 130px;
+}
+
+.card5{
+  margin-left: 410px;
+}
+
+.card-feature h3{
+  font-size: 16px;
+}
+
+.card img{
+  width: 100px;
+  height: 100px;
+  
+}
 
 /* Map */
 .map-main{
@@ -250,6 +343,7 @@ a{
     color: blueviolet;
     border-radius: 10px;
     cursor: pointer;
+    outline: none;
 }
 
 .map-card .instant-btn button{
@@ -260,6 +354,7 @@ a{
     color: white;
     border-radius: 10px;
     cursor: pointer;
+    outline: none;
     
 
 }
@@ -268,6 +363,7 @@ a{
     gap: 80px;
     
 }
+
 
 
 
