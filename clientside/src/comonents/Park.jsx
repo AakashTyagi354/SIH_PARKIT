@@ -24,7 +24,7 @@ const Park = () => {
     setIsLoading(true);
     setTimeout(() => {
       setIsLoading(false);
-      setIsTime(true);
+      setIsTime(true);  
     }, 2000);
   };
   return (
