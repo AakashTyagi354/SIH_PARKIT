@@ -25,7 +25,7 @@ const Search = () => {
 
   return (
     <LoadScript
-      googleMapsApiKey='AIzaSyDf8yBx-7BX0KmLLOkobnD7pu5HZ1gHoSE'
+      googleMapsApiKey='APIKEY'
       libraries={['places']}>
         <StandaloneSearchBox onLoad={ref => (inputRef.current = ref)}
         onPlacesChanged={handlePlaceChanged} className='content-top'>

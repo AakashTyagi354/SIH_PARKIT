@@ -51,7 +51,7 @@ const locations = [
 ];
 const Map = () => {
   const TOKEN =
-    "pk.eyJ1IjoiZGV2ZXNoMTE0MTEiLCJhIjoiY2xteHU2Y2xkMHhmMjJsbGN5enpvYXh2aiJ9.bBWEfwffQR7__rE3r-9p-Q";
+    "ToKEN_HERE";
   const [viewPort, setViewPort] = useState({
     latitude: 18.516542579743234, 
     longitude: 73.87202740814477,
